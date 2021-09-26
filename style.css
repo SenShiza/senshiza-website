@@ -1,0 +1,117 @@
+h1 {
+  font-size: 24px !important;
+  display: table !important;
+  color: black;
+  line-height: 100px
+}
+h2 {
+  font-size: 24px !important;
+  display: inline-block !important;
+  color: black;
+}
+body {
+  background-image: linear-gradient(60deg, #6ebcff, #c95aff)
+}
+.button {
+  position: absolute;
+  right: 36%;
+  top: 2%;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 4px 2px;
+  cursor: pointer;
+  background: none;
+  transition-duration: 0.4s;
+}
+.button:hover {
+  background-color: #404040; /* Green */
+  color: white;
+}
+.button2 {
+  position: absolute;
+  right: 27%;
+  padding: 10px 10px;
+}
+.button3 {
+  position: absolute;
+  right: 14%;
+}
+.button4 {
+  position: absolute;
+  right: 2%;
+}
+.Index {
+  position: absolute;
+  top: 30%;
+  left: 41%;
+}
+.Hello {
+  position: absolute;
+  top: 63%;
+  left: 42%;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: monaco, monospace;
+  color: white;
+}
+.Welcome {
+  position: absolute;
+  top: 70%;
+  left: 38%;
+  font-size: 34px;
+  font-weight: bold;
+  font-family: monaco, monospace;
+  color: white;
+}
+.img {
+  position: fixed;
+  width: 200px;
+}
+.img2 {
+  position: absolute;
+  width: 300px;
+}
+.avatar {
+  position: absolute;
+  top: 16%;
+  left: 32%;
+  width: 500px;
+}
+.About {
+  position: fixed;
+  top: 76%;
+  left: 2%;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: monaco, monospace;
+  line-height: 1.7
+}
+.title {
+  position: fixed;
+  top: 60%;
+  left: 42%;
+  font-size: 42px;
+  font-weight: bold;
+  font-family: monaco, monospace;
+}
+.Titleser {
+  position: fixed;
+  top: 35%;
+  left: 29%;
+  font-weight: bold;
+  font-size: 19px;
+  font-family: monaco, monospace;
+}
+.descser {
+  position: fixed;
+  top: 58%;
+  left: 14%;
+  font-weight: bold;
+  font-size: 17px;
+  font-family: monaco, monospace;
+}
