@@ -1,172 +1,84 @@
-@media screen and (min-width:320px) and (max-width:640px) {
-  .button {
-    position: absolute;
-    right: 64%;
-    top: 1%;
-    color: white;
-    padding: 6px 4px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 10px;
-    font-weight: bold;
-    margin: 4px 2px;
-    cursor: pointer;
-    background: none;
-    transition-duration: 0.4s;
-  }
-  .button2 {
-    position: absolute;
-    right: 47%;
-  }
-  .button3 {
-    position: absolute;
-    right: 23%;
-  }
-  .button4 {
-    position: absolute;
-    right: 1%;
-  }
-  .button5 {
-    position: absolute;
-    top: 75%;
-    left: 10%;
-  }
-  .button6 {
-    position: absolute;
-    top: 75%;
-    right: 17%;
-  }
-  .img {
-    position: fixed;
-    top: 1%;
-    width: 80;
-    height: auto
+@media only screen and (max-width:700px) {
 
-  }
-  .img2 {
-    position: fixed;
-    right: 27%;
-    width: 180px;
-    height: 180px;
-  }
-  .Hello {
+body {
+    background: black;
+    font-family: monospace;
+    animation: fadeInAnimation ease 3s
+    
+}
+nav ul {
+    width: 100%;
     position: absolute;
-    top: 60%;
-    left: 26%;
-    font-size: 25px;
-    font-weight: bold;
-    font-family: monaco, monospace;
-    color: white;
-  }
-  .Welcome {
-    position: absolute;
-    top: 65%;
-    left: 16%;
-    font-size: 21px;
-    font-weight: bold;
-    font-family: monaco, monospace;
-    color: white;
-  }
-  .avatar {
-    position: fixed;
-    top: 10%;
-    left: 0.5%;
-    width: 400px;
-  }
-  .About {
-    position: fixed;
-    top: 58%;
-    right: 5%;
-    font-size: 14px;
-    font-weight: bold;
-    font-family: monaco, monospace;
-    line-height: 1.7
-  }
-  .title {
-    position: fixed;
-    top: 50%;
-    left: 23%;
-    font-size: 42px;
-    font-weight: bold;
-    font-family: monaco, monospace;
-  }
-  .senbotimg {
-    position: absolute;
-    width: 120px;
-    left: 5%;
-    top: 50%;
-  }
-  .titleb {
-    position: fixed;
-    top: 27%;
-    left: 30%;
-    font-family: monaco, monospace;
-  }
-  .discimg {
-    position: absolute;
-    width: 150px;
-    left: 30%;
-    top: 20%;
-  }
-  .divdisc {
-    position: absolute;
-    width: 300px;
-    left: 8%;
-    top: 40%;
-  }
-  .descsb {
-    position: fixed;
-    top: 70%;
-    left: 5%;
-    font-size: 18px;
-    font-weight: bold;
-    font-family: monaco, monospace;
-  }
-  .smimg {
-    position: absolute;
-    width: 110px;
-    left: 60%;
-    top: 50%;
-  }
-  .smdesc {
-    position: fixed;
-    top: 70%;
-    left: 58%;
-    font-size: 19px;
-    font-weight: bold;
-    font-family: monaco, monospace;
-  }
-  .Titleser {
-    position: fixed;
-    top: 35%;
-    left: 29%;
-    font-weight: bold;
-    font-size: 19px;
-    font-family: monaco, monospace;
-  }
-  .descser {
-    position: fixed;
-    top: 58%;
-    left: 14%;
-    font-weight: bold;
-    font-size: 17px;
-    font-family: monaco, monospace;
-  }
-  .senmusicdesc {
-    position: fixed;
-    top: 45%;
-    left: 4%;
-    font-weight: bold;
-    font-size: 15px;
-    font-family: monaco, monospace;
-  }
-  .senshizadesc {
-    position: fixed;
-    top: 45%;
-    left: 4%;
-    font-weight: bold;
-    font-size: 15px;
-    font-family: monaco, monospace;
-  }
+    top: 10px;
+    right: 0;
+    z-index: 2;
+}
+.row {
+    flex-direction: column-reverse;
+    margin: 50px 0;
+}
+.title {
+    flex-basis: 100%;
+    margin-top: 100px;
+    right: 10%;
+}
+.button1 {
+    margin-left: 70px;
+}
+.h1 {
+    font-size: 22px;
+    margin-left: 15%;
+    margin-top: 30%;
+}
+.desc {
+    margin-left: 5%;
+    font-size: 12px;
+}
+}
+@media only screen and (min-width:700px) and (max-width:1024px) {
+    .row {
+        flex-direction: column-reverse;
+        margin: 50px 0;
+    }  
+    .title {
+        flex-basis: 100%;
+        margin-top: 250px;
+        right: 10%;
+    }
+    .button1 {
+        margin-left: 70px;
+    }
+    .h1 {
+        margin-top: 35%;
+        margin-left: 3%;
+        font-size: 30px;
+    }
+    .desc {
+        margin-left: 9%;
+        font-size: 18px;
+    }
+}
+@media only screen and (min-width:1024px) and (max-width:1370px) {
+    .row {
+        flex-direction: column-reverse;
+        margin: 50px 0;
+    }  
+    .title {
+        flex-basis: 100%;
+        margin-top: 400px;
+        right: 10%;
+        font-size: 40px;
+    }
+    .button1 {
+        margin-left: 150px;
+        font-size: 20px;
+    }
+    .h1 {
+        margin-top: 50%;
+        font-size: 36px;
+    }
+    .desc {
+        font-size: 20px;
+        margin-left: 17%;
+    }
 }
