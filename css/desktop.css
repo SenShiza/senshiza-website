@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;900&display=swap');
+
+/** Social Button **/
+.socials:hover {
+    background-color: rgb(234, 234, 234);
+    color: black;
+}
+
+/** Home Section **/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100%;
+    width: 100vw;
+    background-size: 100 ;
+    background-repeat: no-repeat;
+}
+li, a, button {
+    font-family: "Russo One", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 5%;
+    background-color: black;
+}
+.logo {
+    cursor: pointer;
+    width: 6vw;
+    margin-right: auto;
+}
+.navlinks {
+    list-style: none;
+}
+.navlinks li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+.navlinks li a {
+    transition: all 0.3s ease 0s;
+}
+.navlinks li a:hover {
+    color: rgb(85, 96, 255)
+}
+button {
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgb(85, 96, 255);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover {
+    background-color: rgba(0, 136, 169e, 0.8);
+}
+.title {
+    text-align: center;
+    font-family: "Russo One", sans-serif;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+.title span{
+    text-transform: uppercase;
+    display: block;
+}
+.welcome{
+    font-size: 60px;
+    font-weight: 500;
+    letter-spacing: 6px;
+    margin-bottom: 20px;
+    position: relative;
+    animation: text 3s 1;
+}
+.name{
+    font-size: 30px;
+    color: transparent;
+    background-image: linear-gradient(43deg,rgb(35, 105, 255),rgb(125, 102, 255));
+    -webkit-background-clip: text;
+    background-clip: text;
+    animation: fadeIn 6s;
+}
+
+@keyframes text {
+    0%{
+        margin-bottom: -40px;
+    }
+    30%{
+        letter-spacing: 25px;
+        margin-bottom: -40px;
+    }
+    85%{
+        letter-spacing: 8px;
+        margin-bottom: -40px;
+    }
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity:0;
+    }
+    65% {
+        opacity:1;
+    }
+    
+}
+
+/** About Page **/
+.about {
+    height: 50vw;
+    background: linear-gradient(52deg, rgba(2,0,36,1) 0%, rgba(133,133,255,1) 44%, rgba(0,212,255,1) 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.about_title {
+    color: white;
+    position: absolute;
+    top: 20%;
+    left: 38%;
+    align-items: center;
+    font-family: "Russo One", sans-serif;
+    font-size: 80px;
+    letter-spacing: 5px;
+}
+.desclist p1 {
+    position: absolute;
+    top: 50%;
+    left: 1%;
+}
+.desclist li {
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-family: "Be Vietnam Pro", sans-serif;
+    margin: 10px 300px;
+    font-size: 25px;
+}
+
+/** Discord Page **/
+
+.discord_title {
+    color: white;
+    position: absolute;
+    top: 20%;
+    left: 32%;
+    align-items: center;
+    font-family: "Russo One", sans-serif;
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+.discord_image {
+    align-items: center;
+    position: relative;
+    top: 17%;
+    left: 31.5%;
+    width: 20vw;
+    height: 20vw;
+}
+.discord_image:hover {
+    cursor: pointer;
+}
+.discord_desc {
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: black;
+    position: absolute;
+    left: 41%;
+    top: 75%;
+}
+
+/** Socials Page **/
+
+.socials_title {
+    color: white;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    align-items: center;
+    font-family: "Russo One", sans-serif;
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+.discord_logo {
+    width: auto;
+    height: 4vw;
+    margin: 0px 20px;
+    position: absolute;
+    top: 36%;
+    left: 22%;
+}
+.discord_text {
+    color: black;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    top: 37.5%;
+    left: 28%;
+}
+.twitter_logo {
+    width: auto;
+    height: 3vw;
+    margin: 0px, 20px;
+    position: absolute;
+    top: 58%;
+    left: 23.3%
+}
+.twitter_text {
+    color: black;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    top: 58%;
+    left: 28%;
+}
+.volanta_logo {
+    width: auto;
+    height: 3vw;
+    position: absolute;
+    top: 77%;
+    left: 23%;
+}
+.volanta_text {
+    color: black;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    top: 77%;
+    left: 28%;
+}
+
+/** Footer **/
+.footer {
+    position: absolute;
+    bottom: 0%;
+    width: 100vw;
+    display: block;
+    overflow: hidden;
+    padding: 3px 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+.inner_footer {
+    display: block;
+    margin: 0 auto;
+    width: 1100px;
+    height: 100%;
+}
+.github {
+    height: auto;
+    width: 1vw;
+    position: relative;
+    left: 83%;
+}
+.github:hover {
+    cursor: pointer;
+}
+.inner_footer .text_footer {
+    position: relative;
+    right: 39%;
+    color: white;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-size: 15px;
+}
+.footer_about {
+    position: absolute;
+    top: 97.1%;
+    width: 100vw;
+    display: block;
+    overflow: hidden;
+    padding: 3px 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+.footer_socials {
+    position: absolute;
+    top: 97.1%;
+    width: 100vw;
+    display: block;
+    overflow: hidden;
+    padding: 3px 0;
+    box-sizing: border-box;
+    background-color: black;    
+}
+.footer_discord {
+    position: absolute;
+    top: 97.2%;
+    width: 100vw;
+    display: block;
+    overflow: hidden;
+    padding: 3px 0;
+    box-sizing: border-box;
+    background-color: black;    
+}

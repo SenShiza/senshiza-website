@@ -1,0 +1,31 @@
+@media screen and (max-width: 700px) {
+
+    /** Home **/    
+    body {
+        height: 100%;
+        width: 100%;
+        background-size: 300%;
+        background-position: 40%;
+        background-repeat: no-repeat;
+        background-position-y: 50px;
+    }
+    .logo {
+        cursor: pointer;
+        width: 15%;
+        margin-right: auto;
+    }
+    .welcome{
+        font-size: 38px;
+        font-weight: 500;
+        letter-spacing: 6px;
+        margin-bottom: 20px;
+        position: relative;
+    }
+    .name{
+        font-size: 20px;
+    }
+    .navlinks li {
+        display: inline-block;
+        padding: 0px 5px;
+    }
+}
