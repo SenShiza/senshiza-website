@@ -8,11 +8,14 @@
     color: white;
     font-weight: 10;
     box-sizing: border-box;
+    -webkit-text-stroke: inherit;
+    -webkit-text-stroke: initial;
+    -webkit-text-stroke: unset;
 }
 header {
     width: 100vw;
     height: 100vh;
-    background-image: url(../Pictures/blueanimewallpaper.png);
+    background-image: url(../Pictures/background.gif);
     background-position: bottom;
     background-size: cover;
     display: flex;
@@ -22,7 +25,9 @@ header {
 .header-content {
     text-align: center;
     font-size: 50px;
+    -webkit-text-stroke: 3px black;    
 }
 .header-content p1 {
-    color: black;
+    color: rgb(99, 224, 255);
+    -webkit-text-stroke: 3px black;
 }
